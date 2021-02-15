@@ -32,7 +32,9 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
-
+.main-screen:not(.main-chat) {
+  padding-top: 125px;
+}
 a {
   text-decoration: none;
 }

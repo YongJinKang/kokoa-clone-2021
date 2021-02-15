@@ -3,10 +3,13 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  margin-bottom: 00px;
   position: fixed;
   top: 0;
   background-color: var(--color2);
+}
+
+.status-bar {
+  z-index: 2;
 }
 
 .status-bar__column {
