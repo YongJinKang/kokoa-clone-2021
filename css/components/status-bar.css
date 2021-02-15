@@ -6,9 +6,7 @@
   position: fixed;
   top: 0;
   background-color: var(--color2);
-}
-
-.status-bar {
+  box-sizing: border-box;
   z-index: 2;
 }
 

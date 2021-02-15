@@ -35,6 +35,7 @@ body {
 .main-screen:not(.main-chat) {
   padding-top: 125px;
 }
+
 a {
   text-decoration: none;
 }
