@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Noto+Sans+KR:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -38,4 +39,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.splash-screen__text {
+  font-family: "Yeon Sung", cursive;
 }

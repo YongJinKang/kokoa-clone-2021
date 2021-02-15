@@ -83,14 +83,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
   z-index: 99;
 }
 .splash-screen__pic {
-  display: flex;
+  font-size: 90px;
 }
+
+.splash-screen__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .splash-screen__title {
   font-size: 60px;
   font-weight: 650;

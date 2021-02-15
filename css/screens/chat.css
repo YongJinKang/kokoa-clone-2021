@@ -28,7 +28,7 @@
   align-items: center;
   animation: fadeIn 0.3s linear;
 }
-/* 메시지가 각 사이드에서 나오게 애니메이션 구현해볼것 */
+
 .chat__timestamp {
   color: white;
   background-color: var(--color6);
