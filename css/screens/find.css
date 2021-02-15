@@ -32,7 +32,7 @@
 .open-post {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .open-post__title {
