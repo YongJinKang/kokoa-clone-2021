@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: var(--color1);
   height: 500vh;
 }
 
@@ -9,7 +9,7 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: var(--color1);
 }
 
 #chat-screen .status-bar {
@@ -41,7 +41,7 @@
 /* 메시지가 각 사이드에서 나오게 애니메이션 구현해볼것 */
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: var(--color6);
   padding: 8px 15px;
   border-radius: 25px;
   font-size: 14px;
@@ -70,7 +70,7 @@
   align-items: flex-end;
 }
 .message__bubble {
-  background-color: white;
+  background-color: var(--color5);
   padding: 10px 15px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -89,7 +89,8 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  color: var(--color5);
+  background-color: var(--color4);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;

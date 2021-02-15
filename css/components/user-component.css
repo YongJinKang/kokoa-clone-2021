@@ -48,7 +48,7 @@
   font-size: 25px;
   border-radius: 30px;
   margin-right: 20px;
-  background-color: var(--yellow);
+  background-color: var(--color5);
 }
 .user-component__icon--sm {
   width: 60px;

@@ -6,6 +6,7 @@
   margin-bottom: 00px;
   position: fixed;
   top: 0;
+  background-color: var(--color1);
 }
 
 .status-bar__column {

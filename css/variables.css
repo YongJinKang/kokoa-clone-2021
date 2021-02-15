@@ -1,5 +1,12 @@
 :root {
   --yellow: #fae100;
+  --color1: #7d9c9f;
+  --color2: #bdd8da;
+  --color3: #dfeff0;
+  --color4: #ad235e;
+  --color5: #ececec;
+  --color6: #b1b1b1;
+
   --horizontal-space: 25px;
-  --main-border: 1px solid rgb(0, 0, 0, 0.2);
+  --main-border: 0.5px solid rgb(0, 0, 0, 0.4);
 }

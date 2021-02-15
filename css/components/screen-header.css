@@ -6,8 +6,12 @@
   align-items: center;
   padding: 25px;
   padding-top: var(--horizontal-space);
-  margin-top: 27px;
+  margin-top: 25px;
   margin-bottom: 15px;
+  background-color: var(--color1);
+  /* border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; */
+  /* padding-bottom: 25px; */
 }
 .screen-header__title {
   font-size: 25px;
